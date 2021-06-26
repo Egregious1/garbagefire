@@ -11,10 +11,11 @@ h1 {
   /* why does this work for centering?^ */
   margin: auto;
   font-size: 2em;
-  padding-top: 80px;
+  padding-top: 90px;
 }
 
 .tagline {
+  text-align: center;
   color: antiquewhite;
   width: 60%;
   margin: auto;
@@ -46,6 +47,15 @@ header {
 
 /* images in entries will be altered here */
 .postimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+/* hoping this works with centering spotify player */
+
+.player {
   display: block;
   margin-left: auto;
   margin-right: auto;
