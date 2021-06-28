@@ -1,8 +1,9 @@
 html {
   background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2Fa%2Fe%2F1%2F118695-popular-black-gradient-background-2560x1600.jpg&f=1&nofb=1);
-  background-size: auto;
+  background-size: cover;
   font-family: Arial, Helvetica, sans-serif;
   background-color: darkslateblue;
+  background-repeat: no-repeat;
 }
 /* padding here seems clunky but meant to keep out of way of nav bar */
 h1 {
@@ -51,6 +52,21 @@ header {
   margin-left: auto;
   margin-right: auto;
   width: 25%;
+}
+
+/* hr element fixing border tag is important to change color of line.*/
+hr {
+  max-width: 50%;
+  height: 1px;
+  background-color: antiquewhite;
+  border: none;
+}
+
+/* footer stuff copywrites and all that jazz */
+footer {
+  text-align: center;
+  color: antiquewhite;
+  font-size: .75em;
 }
 
 /* hoping this works with centering spotify player */

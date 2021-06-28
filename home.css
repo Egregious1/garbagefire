@@ -1,8 +1,9 @@
 html {
   background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2Fa%2Fe%2F1%2F118695-popular-black-gradient-background-2560x1600.jpg&f=1&nofb=1);
-  background-size: auto;
+  background-size: cover;
   background-color: darkslateblue;
   font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
 }
 /* padding-top of 60px seems to make it clear the navbar */
 .header {
@@ -52,4 +53,19 @@ html {
 /* psuedo for color changing on hover */
 .navbar a:hover {
   color: #1c87c9;
+}
+
+/* footer stuff */
+footer {
+  text-align: center;
+  color: antiquewhite;
+  font-size: .75em;
+}
+
+/* hr element fixing border tag is important to change color of line.*/
+hr {
+  max-width: 50%;
+  height: 1px;
+  background-color: antiquewhite;
+  border: none;
 }
