@@ -51,7 +51,7 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  max-width: 100%;
 }
 
 /* hr element fixing border tag is important to change color of line.*/
@@ -111,5 +111,16 @@ footer {
 
 /* psuedo for color changing on hover */
 .navbar a:hover {
+  color: #1c87c9;
+}
+
+/* this should help make the a elements not look so damn shitty */
+a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-style: italic;
+}
+
+a:hover {
   color: #1c87c9;
 }
